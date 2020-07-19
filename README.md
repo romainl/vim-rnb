@@ -41,6 +41,7 @@ The following colorschemes are known to be built with RNB:
 * [Warlock](https://github.com/hardselius/warlock)
 * [Cyberpunk-Neon](https://github.com/Roboron3042/Cyberpunk-Neon)
 * [Tutfish](https://github.com/benwr/tuftish)
+* [Nisha](https://github.com/heraldofsolace/nisha-vim)
 * (your colorscheme here, send us a PR!)
 
 ## TODO
