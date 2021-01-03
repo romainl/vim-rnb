@@ -1,6 +1,6 @@
 # Vim-RNB, a Vim colorscheme template
 
-## What Is This Thing?
+## What is This Thing?
 
 RNB is a template designed to help vimmers create their own colorschemes without much effort.
 
