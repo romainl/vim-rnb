@@ -1,4 +1,4 @@
-# Vim-RNB, a Vim colorscheme template
+# Vim-RNB, a Vim Colorscheme Template
 
 ## What is This Thing?
 
