@@ -24,23 +24,17 @@ The process is divided in five steps:
 2. start by editing your colorscheme's information,
 3. define your colors,
 4. define your highlight groups and links,
-5. and generate your colorscheme (refer next step below).
+5. and generate your colorscheme (refer [how to generate](https://github.com/romainl/vim-rnb/blob/009cedd755ae1eeabe8842a320035f73459d39dd/colors/rnb.erb#L242)).
 
-Steps 2 to 5 are thoroughly described in the colorscheme template itself in an effort to make it portable: if you ever decide to distribute your colorscheme you can simply package the template with it.
+Steps 2 to 5 are thoroughly described in the [colorscheme template](https://github.com/romainl/vim-rnb/blob/master/colors/rnb.erb) itself in an effort to make it portable: if you ever decide to distribute your colorscheme you can simply package the template with it.
 
-## How to Generate?
+## Necessary Tool:
 
-you need to have ruby installed `sudo apt install ruby` before get started.
-
-1. clone this repo.
-2. cd `./vim-rbn/`
-3. type `make` in terminal
-
-the generated file will be in `./vim-rbn/colors/` with the `.vim` file extension.  
-move it to:  
-- vim: `~/.vim/colors/`
-- nvim: `~/.config/nvim/colors/`
-
+you need to have ruby installed before get started: 
+- apt (Debian or Ubuntu): `sudo apt install ruby`  
+- pacman (Arch Linux): `sudo pacman -S ruby`
+- Homebrew (macOS): `brew install ruby`
+- FreeBSD: `pkg install ruby`
 
 ## Built with RNB
 
