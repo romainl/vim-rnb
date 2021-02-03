@@ -51,6 +51,7 @@ The following colorschemes are known to be built with RNB:
 * [Tutfish](https://github.com/benwr/tuftish)
 * [Nisha](https://github.com/heraldofsolace/nisha-vim)
 * [Photon](https://github.com/axvr/photon.vim)
+* [vim-J](https://github.com/arthurealike/vim-J)
 * (your colorscheme here, send us a PR!)
 
 ## TODO
