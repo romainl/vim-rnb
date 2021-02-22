@@ -41,6 +41,7 @@ you need to have ruby installed before get started:
 The following colorschemes are known to be built with RNB:
 
 * [Apprentice](https://github.com/romainl/Apprentice)
+* [Dark Frost](https://github.com/Softmotions/vim-dark-frost-theme)
 * [Dichromatic](https://github.com/romainl/vim-dichromatic)
 * [Bruin](https://git.sr.ht/~romainl/vim-bruin)
 * [Sweet16](https://github.com/romainl/vim-sweet16)
