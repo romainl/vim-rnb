@@ -53,6 +53,7 @@ The following colorschemes are known to be built with RNB:
 * [Nisha](https://github.com/heraldofsolace/nisha-vim)
 * [Photon](https://github.com/axvr/photon.vim)
 * [vim-J](https://github.com/arthurealike/vim-J)
+* [crystalcove](https://github.com/jayhowie/crystal-cove)
 * (your colorscheme here, send us a PR!)
 
 ## TODO
