@@ -16,25 +16,19 @@ In reality, Vim colorschemes are not that hard to write but there are several be
 
 [ERB](https://ruby-doc.org/stdlib-2.6.3/libdoc/erb/rdoc/index.html), the templating engine used here, is part of Ruby's standard library so you will need [Ruby](https://www.ruby-lang.org/) to generate your colorscheme. Neither ERB nor Ruby knowledge is required, though.
 
+If  you don't already have Ruby, the official site [has got your back](https://www.ruby-lang.org/en/documentation/installation/).
+
 ## How do I use it?
 
 The process is divided in five steps:
 
 1. rename `colors/rnb.erb` to `colors/name_of_your_colorscheme.erb`,
-2. start by editing your colorscheme's information,
+2. edit your colorscheme's information,
 3. define your colors,
 4. define your highlight groups and links,
-5. and generate your colorscheme (refer [how to generate](https://github.com/romainl/vim-rnb/blob/009cedd755ae1eeabe8842a320035f73459d39dd/colors/rnb.erb#L242)).
+5. and generate your colorscheme.
 
 Steps 2 to 5 are thoroughly described in the [colorscheme template](https://github.com/romainl/vim-rnb/blob/master/colors/rnb.erb) itself in an effort to make it portable: if you ever decide to distribute your colorscheme you can simply package the template with it.
-
-## Necessary Tool:
-
-you need to have ruby installed before get started: 
-- apt (Debian or Ubuntu): `sudo apt install ruby`  
-- pacman (Arch Linux): `sudo pacman -S ruby`
-- Homebrew (macOS): `brew install ruby`
-- FreeBSD: `pkg install ruby`
 
 ## Built with RNB
 
