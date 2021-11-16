@@ -50,6 +50,7 @@ The following colorschemes are known to be built with RNB:
 * [crystalcove](https://github.com/jayhowie/crystal-cove)
 * [antarctic](https://github.com/swalladge/antarctic-vim)
 * [Stella](https://github.com/Shrimpram/vim-stella)
+* [Outrun](https://github.com/u03c1/outrun-vim)
 * (your colorscheme here, send us a PR!)
 
 ## TODO
