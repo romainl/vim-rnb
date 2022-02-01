@@ -327,7 +327,7 @@ endif
 let colors_name = "<%= information[:name].downcase %>"
 
 if ($TERM =~ '256' || &t_Co >= 256) || has("gui_running")
-<% for highlight in highlights -%>
+<% highlights.each do |highlight| -%>
 <% if highlight.length == 4 -%>
     hi <%= highlight[0] %> ctermbg=<%= highlight[1].kind_of?(String) ? highlight[1] : highlight[1][1] %> ctermfg=<%= highlight[2].kind_of?(String) ? highlight[2] : highlight[2][1] %> cterm=<%= highlight[3] %> guibg=<%= highlight[1].kind_of?(String) ? highlight[1] : highlight[1][0] %> guifg=<%= highlight[2].kind_of?(String) ? highlight[2] : highlight[2][0] %> gui=<%= highlight[3] %>
 <% elsif highlight.length > 4 -%>
@@ -338,7 +338,7 @@ if ($TERM =~ '256' || &t_Co >= 256) || has("gui_running")
 elseif &t_Co == 8 || $TERM !~# '^linux' || &t_Co == 16
     set t_Co=16
 <%= '' %>
-<% for highlight in highlights -%>
+<% highlights.each do |highlight| -%>
 <% if highlight.length > 2 -%>
     hi <%= highlight[0] %> ctermbg=<%= highlight[1].kind_of?(String) ? highlight[1] : highlight[1][2] %> ctermfg=<%= highlight[2].kind_of?(String) ? highlight[2] : highlight[2][2] %> cterm=<%= highlight[3] %>
 <% end -%>
@@ -349,14 +349,14 @@ endif
 <% end -%>
 <% if links.length > 0 -%>
 <%= '' %>
-<% for link in links -%>
+<% links.each do |link| -%>
 hi link <%= link[0] %> <%= link[1] %>
 <% end -%>
 <% end -%>
 <% if terminal_ansi_colors.length == 16 -%>
 <%= '' %>
 if (has('termguicolors') && &termguicolors) || has('gui_running')
-    let g:terminal_ansi_colors = [ <% for color in terminal_ansi_colors -%>'<%= color[0] %>', <% end -%>]
+    let g:terminal_ansi_colors = [ <%= terminal_ansi_colors.map { |color| "'#{color[0]}'" }.join(', ') %> ]
 endif
 <% end -%>
 
