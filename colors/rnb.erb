@@ -349,7 +349,7 @@ endif
 <% end -%>
 <% if links.length > 0 -%>
 <%= '' %>
-<% for link in links -%>
+<% link.each do |link| -%>
 hi link <%= link[0] %> <%= link[1] %>
 <% end -%>
 <% end -%>
