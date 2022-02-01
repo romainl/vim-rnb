@@ -356,7 +356,7 @@ hi link <%= link[0] %> <%= link[1] %>
 <% if terminal_ansi_colors.length == 16 -%>
 <%= '' %>
 if (has('termguicolors') && &termguicolors) || has('gui_running')
-    let g:terminal_ansi_colors = [ <%= terminal_ansi_colors.map { |color| color[0] }.join(', ') %> ]
+    let g:terminal_ansi_colors = [ <%= terminal_ansi_colors.map { |color| color[0].inspect }.join(', ') %> ]
 endif
 <% end -%>
 
