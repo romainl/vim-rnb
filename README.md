@@ -52,6 +52,7 @@ The following colorschemes are known to be built with RNB:
 * [Stella](https://github.com/Shrimpram/vim-stella)
 * [Outrun](https://github.com/u03c1/outrun-vim)
 * [Raider](https://github.com/axvr/raider.vim)
+* [Mitra](https://github.com/wolandark/Mitra-Vim)
 * (your colorscheme here, send us a PR!)
 
 ## TODO
