@@ -53,6 +53,7 @@ The following colorschemes are known to be built with RNB:
 * [Outrun](https://github.com/u03c1/outrun-vim)
 * [Raider](https://github.com/axvr/raider.vim)
 * [Mitra](https://github.com/wolandark/Mitra-Vim)
+* [Orbital](https://github.com/fcpg/vim-orbital)
 * (your colorscheme here, send us a PR!)
 
 ## TODO
