@@ -54,6 +54,9 @@ The following colorschemes are known to be built with RNB:
 * [Raider](https://github.com/axvr/raider.vim)
 * [Mitra](https://github.com/wolandark/Mitra-Vim)
 * [Orbital](https://github.com/fcpg/vim-orbital)
+* [NotePad](https://github.com/wolandark/NotePad-Vim)
+* [Pool](https://github.com/wolandark/Pool-Vim)
+* [ColorschemeFromHell](https://github.com/wolandark/ColorschemeFromHell-Vim)
 * (your colorscheme here, send us a PR!)
 
 ## TODO
